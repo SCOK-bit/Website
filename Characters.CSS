@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg,  
+        rgb(80, 50, 90) 3%,  
+        rgb(50, 30, 70) 15%, 
+        rgb(42, 42, 46),
+        rgb(30, 30, 34),  
+        rgb(21, 21, 24),  
+        rgb(15, 15, 18)  
+        /* rgb(40, 53, 69),  
+        rgb(63, 80, 97),  
+        rgb(38, 52, 69),  
+        rgb(30, 35, 50)   */
+    );  
+background-attachment: fixed;
+
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    /* background-color: lightcoral; */
+
+}
+
+.top-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Titlebar2.png);
+    background-size: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(121, 194, 219); */
+
+}
+
+.top-middle-word {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 2.5vh; 
+    margin-top: 4.2vh;
+
+}
+
+.top-right {   
+    display: flex;
+    width: 33vh;
+    height: 30vh;
+    /* background-color: lightgreen; */
+
+}
+
+.top-left {   
+    display: flex;
+    width: 33vh;
+    height: 30vh;
+    /* background-color: lightgreen; */
+
+}
+
+.top-left-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/WordFrame\ 2.png);
+    background-size: 21vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 21vh;
+    /* background-color: lightblue; */
+
+}
+
+.top-left-word {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 2.5vh; 
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+    height: 70vh;
+    width: 100%;
+    /* background-color: darkred; */
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    height: 35vh;
+    width: 100%;
+    /* background-color: lightcoral; */
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    height: 35vh;
+    width: 100%;
+    /* background-color: lightgray; */
+
+}
+
+.top-words {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.bottom-words {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.item1 {
+    background-image: url(images/Assassin.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    width: 33vh;
+    border: 5px solid black;
+
+}
+
+.item2 {
+    background-image: url(images/Clockwork\ engineer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    width: 33vh;
+    border: 5px solid black;
+    
+}
+
+.item3 {
+    background-image: url(images/Undead\ Samurai.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    width: 33vh;
+    border: 5px solid black;
+    
+}
+
+.item4 {
+    background-image: url(images/Warlock.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    width: 33vh;
+    border: 5px solid black;
+    
+}
+
+.item5 {
+    background-image: url(images/VampyricKnight.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    width: 33vh;
+    border: 5px solid black;
+    
+}
+
+.item6 {
+    background-image: url(images/PlagueBearer.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    width: 33vh;
+    border: 5px solid black;
+    
+}
+
+.word1 {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 1.7vh; 
+    display: flex;
+    justify-content: center;
+    height: 1.8vh;
+    width: 33vh;
+
+}
+
+.word2 {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 1.7vh;
+    display: flex;
+    justify-content: center;
+    height: 1.8vh;
+    width: 33vh;
+    
+}
+
+.word3 {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 1.7vh;
+    display: flex;
+    justify-content: center;
+    height: 1.8vh;
+    width: 33vh;
+    
+}
+
+.word4 {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 1.7vh;
+    display: flex;
+    justify-content: center;
+    height: 1.8vh;
+    width: 33vh;
+    
+}
+
+.word5 {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 1.7vh;
+    display: flex;
+    justify-content: center;
+    height: 1.8vh;
+    width: 33vh;
+    
+}
+
+.word6 {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 1.7vh;
+    display: flex;
+    justify-content: center;
+    height: 1.8vh;
+    width: 33vh;
+    
+}
+
+a {
+    color: rgba(255, 255, 255, 0.815);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+
+}

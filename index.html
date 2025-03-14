@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Index.CSS">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="background">
+
+            <div class="top-content">
+                <div class="top-left"></div>
+                <div class="top-middle">
+                    <div class="top-middle-word">
+                        <a href="#bottom">Welcome</a>
+                    </div>
+                </div>
+                <div class="top-right"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+
+        <div class="leftbox">
+            <div class="leftcontent">
+                <h1>Welcome to my website</h1>
+                <p>This website is a collection of concept art of characters / classes <br>
+                that i would like to include in a future game i personally design, it also <br>
+                includes some concept ideas of abilities and such for each class. </p>
+            </div>
+            <div class="leftlink"><div class="llink"><a href="Characters.html">Characters</a></div></div>
+        </div>
+        <div class="rightbox">
+            <div class="rightcontent">
+                <h1>Creation</h1>
+                <p>I used an app called Krita and a drawing pad and pen to create <br> 
+                all my concept art designs, there was some very helpful
+                videos <br>and guides for krita that i have linked in my Contact webpage <br>
+                that you can visit below. </p>
+            </div>
+            <div class="rightlink"><div class="rlink"><a href="Contact.html">Contact/Creation</a></div></div>
+        </div>
+
+
+        <!-- <h1>Welcome to my website</h1>
+        <p>yes</p>
+        <h2>This website will showcase multiple concept arts for <br> 
+            a game I plan to make at some point in the future 
+        </h2>
+        <h3>hello</h3>
+        <h3>hello</h3>
+        <h3>hello</h3>
+        <h3>hello</h3>
+        <h3>hello</h3>
+        <h3>hello</h3>
+        <h3>hello</h3>
+        <h3>hello</h3>
+        <h3>why are you reading this</h3>
+        <h3>lowkey a b*tch</h3>
+        <h3>your ma was here</h3>
+        <h3>MUSTTTTTAAAAAAAAARRRRRRRRDDDDDD!!!!!!</h3> -->
+    </div>
+    <script>
+        ocument.querySelector(".top-middle-word").addEventListener("click", function (e) {
+        e.preventDefault();
+        document.getElementById("bottom").scrollIntoView({ behavior: "smooth" });
+    });
+
+    </script>
+    <div id="bottom"></div>
+</body>
+</html>

@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    background-color: RGB(28, 24, 33);
+    /* background: linear-gradient(160deg,  
+    rgb(28, 24, 33) 30%,
+    rgb(29, 34, 45) 59%,  
+    rgb(30, 35, 50) 60%,  
+    rgb(52, 58, 78) 75%,  
+    rgb(40, 53, 69) 85%,  
+    rgb(63, 80, 97) 95%,  
+    rgb(38, 52, 69) 100%  
+); */
+/* background-attachment: fixed; */
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: lightslategray;
+}
+
+.background {
+    background-image: url(images/HomePage.png);
+    background-size: cover; 
+    background-position: center bottom; 
+    background-repeat: no-repeat;
+    width: 100vw; 
+    height: 100vh; 
+    overflow-x: hidden; 
+
+}
+
+.top-content {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    /* background-color: rgb(128, 221, 240); */
+
+}
+
+.top-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Titlebar2.png);
+    background-size: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(121, 194, 219); */
+
+}
+
+@keyframes flash {
+    0% { color: rgba(255, 255, 255, 0.3); } 
+    50% { color: rgba(255, 255, 255, 1); } 
+    100% { color: rgba(255, 255, 255, 0.3); } 
+}
+
+.top-middle-word {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 2.5vh; 
+    margin-top: 4.2vh;
+
+}
+
+.top-middle-word a {
+    animation: flash 2s infinite;
+
+}
+
+
+/* .top-right {   
+    display: flex;
+    width: 33vh;
+    height: 30vh;
+    background-color: lightgreen;
+
+}
+
+.top-left {   
+    display: flex;
+    width: 33vh;
+    height: 30vh;
+    background-color: lightgreen;
+
+} */
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    height: auto; 
+    width: 100%;
+    /* background-color: lightcoral; */
+    padding: 0; 
+    /* background-color: rgb(125, 169, 186);  */
+}
+
+.leftbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 50vw;
+    /* border: 5px solid black; */
+}
+
+.leftcontent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45vw;
+    height: 45vh;
+    /* background-color: aqua; */
+}
+
+.leftlink {
+    background-image: url(images/WordFrame\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 15vh;
+    /* background-color: rgb(242, 0, 255); */
+    
+}
+.llink {
+    font-size: 3vh;
+    color: rgba(255, 255, 255, 0.913);;
+}
+
+.rightbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 50vw;
+    /* border: 5px solid black; */
+}
+
+.rightcontent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45vw;
+    height: 45vh;
+    /* background-color: aqua; */
+}
+
+.rightlink {
+    background-image: url(images/WordFrame\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 15vh;
+    /* background-color: rgb(242, 0, 255); */
+
+}
+
+.rlink {
+    color: rgba(255, 255, 255, 0.913);
+    font-size: 3vh;
+    transform: rotate(180deg);
+
+}
+
+p {
+    font-size: 2vh;
+    color: rgba(255, 255, 255, 0.913);
+
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.913);
+
+}
+
+h1 {
+    font-size: 3.5vh;
+    color: rgba(255, 255, 255, 0.913);
+
+}
+h3 {
+    color: RGB(28, 24, 33);;
+
+}
+
+a {
+    color: rgba(255, 255, 255, 0.815);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+
+}
